@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
+    rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="assets/css/libs/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/libs/style.css">
+  <link rel="stylesheet" href="css/fa.min.css">
+  <link rel="stylesheet" href="css/app.css" type="text/css" />
+  <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+  <link rel="stylesheet" href="css/dark.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+  <link rel="stylesheet" href="css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css icon/all.css">
+  <title>Market Name</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+
+</head>
+<!-- ---------------         Mohammad Nasser     12030553                   ------------------------------------------------------------------------------------------------ -->
+
+<body>
+  <!-- <script>
+    alert("Name: Mohammad Nasser ID: 12030553")
+  </script> -->
+
+
+  <!-- above nav -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light mb-0">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="nav-bar-logo-img px-4" src="assets/images/project-logo.png" alt="Logo">
+      </a>
+      <div class="navbar-collapse nav-search" id="mynavbar">
+        <form class="d-flex ms-auto mt-4 nav-search" style="width: 99%;">
+          <input class="form-control mx-2" type="text" placeholder="Search">
+          <button class="btn btn-danger" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- /above nav -->
+
+
+  <!-- up section -->
+  <div id="up"></div>
+  <!-- /up section -->
+
+  <!--floating side button -->
+  <div class="floating-button">
+    <button id="main-button">
+      <a href="#up"><i class="fa-solid fa-arrow-up arrow-up-icon"></i>
+      </a>
+    </button>
+  </div>
+  <div class="floating-button-2">
+    <button id="whatsapp-button">
+      <a href=""><i class="fa-brands fa-whatsapp fa-lg whats" style="color: #ffffff;"></i>
+      </a>
+    </button>
+  </div>
+  <div class="floating-button-3">
+    <button id="whatsapp-button">
+      <a href="signup.html"><i class="fa-regular fa-user" style="color: #ffffff;"></i>
+      </a>
+    </button>
+  </div>
+
+
+  <!-- left side floating button to change the theme of web -->
+  <div class="floating-button-left">
+    <button id="theme-button" onclick="toggleTheme()">
+      <!-- <i class="fa-solid fa-sun fa-lg sun" style="color: #ffffff;"></i> -->
+      <i class="fa-regular fa-moon"  style="color: #ffffff;"></i>
+    </button>
+  </div>
+  <!-- /side button -->
+
+
+
+  <!-- img slider -->
+  <div class="container">
+    <section class="slider-img">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/wide-img-1.avif" class="d-block w-100 slider-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/wide-img-2.avif" class="d-block w-100 slider-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/wide-img-3.avif" class="d-block w-100 slider-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </div>
+  <!-- /slider -->
+
+  <section id="category-section">
+    <div class="container  to-change-font-theme ">
+      <div class="category-section-background">
+        <!-- <div class=" px-2 mt-4">
+          <h2 class="px-4 py-3"></h2> 
+        </div> -->
+        <!-- row 1 -->
+        <div class="row popular-row">
+          <!-- new -->
+          <div class="col-md-4 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href="new-product.html"><img src="assets/images/new.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">new products</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- hot deals -->
+          <div class="col-md-4 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href="hot-deals.html"><img src="assets/images/hot-deal.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Hot Deals</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- top selling -->
+          <div class="col-md-4 col-12">
+            <div class="card card-3-r1">
+              <div class="card-header card-img-top top-selling-bg-card">
+                <a href=""><img class="top-sell-img" src="assets/images/top selling.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Top Selling</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+        </div>
+        <hr>
+        <!-- row 2 -->
+        <div class="row popular-row">
+          <!-- card 1 r2 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href="dairy.html"><img src="assets/images/dairy-products (1).png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Dairy Products</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 2 BBQ chips -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/bread.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Bakery</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 3 r 2 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/frozen-goods.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Frozen Food</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 4 r 2 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/cleaning.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Cleaning Products</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+        </div>
+        <!-- row 3 -->
+        <div class="row popular-row">
+          <!-- card 1 r3 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/barbecue.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Meat & Chicken</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 2 r3 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/soft-drink.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Drinks</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 3 r 3 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/snack.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">chocolate & Chips</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 4 r3-->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/vegetable.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Vegetable</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+        </div>
+        <!-- row 4 -->
+        <div class="row popular-row">
+          <!-- card 1 r4 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/nuts.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Nuts</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 2 r4 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/popsicle.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">ice cream</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 3 r4 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/coffee-cup.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Cofee & Tea</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 4 r4-->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/baby-products.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">baby Product</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+        </div>
+        <!-- row 5 -->
+        <div class="row popular-row">
+          <!-- card 1 r5 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/lamp.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Ramadad Usage</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 2 r5 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/book.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Books & Stationery</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 3 r5 -->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/pet-food.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Pet Food</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+          <!-- card 4 r5-->
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-header card-img-top">
+                <a href=""><img src="assets/images/happy-birthday.png" alt=""></a>
+              </div>
+              <div class="card-body">
+                <p class="text-center mx-0 my-0">Birthday</p>
+              </div>
+              <!--card body-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--footer starts from here-->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white mt-5" style="background-color: #000000c0;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-3 col-12 mb-4 mb-md-0">
+            <img class="nav-bar-logo-img " src="assets/images/project-logo.png" alt="Logo">
+            <h5 class="text-uppercase footer-title "></h5>
+            <p>
+              Beirut, Lebanon, New Airport Highway, Near Fantasy World Amusement Center, Arij Building,
+              Ground Floor
+            </p>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-3 col-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase footer-title">CONTACT INFORMATION</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <p>
+                  <br>
+                  Email: <a href="mail">mohammad.com.lb</a>
+                  <br>
+                  Phone: <a href="phone number">+961 70 123 321</a>
+                  <br>
+                  Fax: <a href="phone number">+961 (1) 123 321</a>
+                </p>
+              </li>
+              <li>
+                <a href="contact.html" class="text-light">contact us</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-3 col-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase footer-title">location</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.google.com/maps/dir//Spinneys+Jnah%D8%8C+Wata+El%D8%8C+%D8%AC%D9%86%D8%A7%D8%AD%E2%80%AD/@33.8735014,35.4196023,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x151f17462b87f2af:0x87ab242b9a596d18!2m2!1d35.489643!2d33.8733787"
+                  class="text-white" target="_blank"><button type="button" class="btn btn-light download-button mb-1"><i
+                      class="fa fa-map-location-dot"></i>
+                    Google Maps</button></a>
+              </li>
+
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-3 col-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase footer-title">Download the app</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <button type="button" class="btn btn-dark btn-lg download-button mb-1">
+                  <a class="download-btn" href="http://" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-apple"></i>
+                    Download
+                  </a>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-outline-light btn-lg download-button">
+                  <a class="download-btn" href="http://" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-google-play"></i> Download
+                  </a>
+                </button>
+
+              </li>
+
+            </ul>
+          </div>
+
+
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="mb-4" />
+
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Register</span>
+          <a href="signup.html">
+            <button type="button" class="btn btn-outline-light btn-rounded">
+              Sign up!
+            </button>
+          </a>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+
+      <hr class="mb-4" />
+      <!-- Section: Social media -->
+      <section class="mb-4 text-center">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http://www.facebook.com" role="button" target="_blank">
+          <i class="fab fa-facebook-f"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+          target="_blank">
+          <i class="fab fa-instagram"></i></a>
+
+        <!-- Whatsapp -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http://whatsapp.com" role="button" target="_blank">
+          <i class="fab fa-whatsapp"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http://www.google.com" role="button" target="_blank">
+          <i class="fab fa-google"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2023 Copyright:
+      <a class="text-white" href="index.html">Mohammad Nasser</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- /Footer -->
+
+
+
+
+
+  <!-- beautify shortcut shift + alt + F -->
+
+  <!-- <section class="first-half">
+        <div class="container">
+            <h2 data-animate="fadeInLeft" class="text-center market-title-name">Super Market</h2>
+        </div>
+      </section> -->
+
+
+
+  <!-- use card  bootstrap-->
+
+
+
+
+  <!-- can be used for whatsapp -->
+  <!-- <a href="https://www.youtube.com/c/ShortCode" target="_blank" id="ytb">
+    <i class="fab fa-youtube"> </i>
+    </a> -->
+</body>
+<script src="js/jquery.js"></script>
+<script src="assets/js/libs/bootstrap.min.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/mh-min.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js'></script>
+<script src="js/script.js"></script>
+
+</html>

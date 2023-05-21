@@ -1,0 +1,47 @@
+/*  Featuers Section CSS
+*/
+.features-section{
+    height: 500px;
+    margin-bottom: 30px;
+}
+.features-img{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+#text{
+    margin-right: 50px;
+    padding-left: -10;
+    margin-top: 100px
+}
+#image1{
+    position: relative;
+    left: 250px;
+}
+#image2{
+    position: relative;
+    left: 70px;
+    top: 120px;
+}
+#image3{
+    height:250px;
+    width: 250px;
+    position: relative;
+    right: 350px;
+    top:250px;
+}
+.sliderf{
+    width: 100%;
+    overflow: hidden;
+}
+.slidesf{
+    display: flex;
+    width: 300%;
+}
+.slidef{
+    width: 33.33%;
+}
+.slidef img{
+    width: 100%;
+}
